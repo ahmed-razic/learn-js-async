@@ -1,0 +1,37 @@
+[
+  {
+    "manufactor": "Audi",
+    "model": "A3",
+    "year": 2022,
+    "used": false,
+    "owner": "Ahmed Razic"
+  },
+  {
+    "manufactor": "Mercedes",
+    "model": "C-220",
+    "year": 2020,
+    "used": true,
+    "owner": "Muhamed Islam"
+  },
+  {
+    "manufactor": "Opel",
+    "model": "Astra",
+    "year": 2022,
+    "used": false,
+    "owner": "Ibrahim Emin"
+  },
+  {
+    "manufactor": "Ford",
+    "model": "Mondeo",
+    "year": 2019,
+    "used": true,
+    "owner": "Osman Gazi"
+  },
+  {
+    "manufactor": "VW",
+    "model": "Golf",
+    "year": 2021,
+    "used": true,
+    "owner": "Bakir Muaz"
+  }
+]
