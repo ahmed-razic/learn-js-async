@@ -3,7 +3,7 @@ document.getElementById('get-cars').addEventListener('click', getCars);
 function getCars() {
   const xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function () {
-    console.log(xhr.readyState);
+    console.log('Ready State: ', xhr.readyState);
   };
 
   xhr.onerror = function () {
