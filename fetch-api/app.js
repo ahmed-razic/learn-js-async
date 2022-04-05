@@ -4,18 +4,15 @@ document.getElementById('button2').addEventListener('click', getJSON);
 
 document.getElementById('button3').addEventListener('click', getAPIData);
 
+//using arrow functions
 function getText() {
   window
     .fetch('./text.txt')
-    .then(function (res) {
-      return res.text();
-    })
-    .then(function (data) {
+    .then((res) => res.text())
+    .then((data) => {
       document.getElementById('output').innerHTML = data;
     })
-    .catch(function (err) {
-      console.log(err);
-    });
+    .catch((err) => console.log(err));
 }
 
 function getJSON() {
